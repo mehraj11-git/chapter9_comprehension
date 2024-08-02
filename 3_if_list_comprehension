@@ -1,0 +1,17 @@
+# for ex u have a list 
+# and you have to print the eeven number and another one with odd number 
+#  simple method
+number = list(range(1,11))
+num = []
+for i in number:
+    if i%2 == 0:
+        num.append(i)
+print(num)
+
+# comprehension method 
+
+num2 = [i for i in number if i%2==0]
+print(num2)
+# (!) this is use for odd 
+odd = [i for i in number if i%2!=0]
+print(odd)
