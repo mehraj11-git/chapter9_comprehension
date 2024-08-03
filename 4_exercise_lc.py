@@ -11,8 +11,9 @@ print(mix_list(["mehraj",1,2,3.4,[1,2,3],"khan"]))
 # simple method
 
 def mix_string(m):
-    mix = []
+    
     for i in m:
+        mix = []
         mix.append(str(i))
         if type(i) == int or type(i) ==float:
          return mix

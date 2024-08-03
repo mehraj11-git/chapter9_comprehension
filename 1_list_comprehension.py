@@ -1,5 +1,5 @@
 # list comprehension is it related to list 
-# with this method we can create list  in line
+# with this method we can create list  in one line
 #  creating a simple list containg square 
 # 
 # simple way
@@ -12,7 +12,7 @@ print(square_list)
 # think first what you have to append ,i mean in this ex we are gonna make the square of the number ,
 # hence, think you have to make the square of the i 
 # after that you have to write the for loop condition and close the bracket
-# we use square bracket in this comprehension method
+# we use square bracket in this list comprehension method
 # (1)
 square = [i**2 for i in range(1,11)]
 print(square)
